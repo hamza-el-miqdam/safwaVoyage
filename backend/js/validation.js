@@ -47,6 +47,7 @@ function valider(form,type) {
             erreur += "- Veuillez entrer la description du voyage en question. <br/>";
         }
         if (form.prix_voy.value == "") {
+            $("#idprix").
             document.getElementById("idprix").className="danger";
             erreur += "- Veuillez donner un Prix du voyage en question.<br/>";
         }

@@ -1,10 +1,21 @@
 <?php
 require_once '../../module/connection.php';
 require_once '../../module/model/Media/Media.php';
+require_once '../../module/model/Dest/Dest.php';
+require_once '../../module/model/Cat_Voyage/Cat_Voyage.php';
+require_once '../../module/model/Voyage/Voyage.php';
+
 
 $media =new Media();
+$dest =new Dest();
+$cat =new Cat_Voyage();
+$voy =new Voyage();
 
 $listMedia = $media->getMedia();
+$listDest = $dest->getDest();
+$listCat = $cat->getCat_Voyage();
+$listvoy = $voy->getVoyage();
+
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
 <html>
@@ -14,6 +25,27 @@ $listMedia = $media->getMedia();
     <meta http-equiv="Content-Type" content="text/html; charset=Cp1252">
     <title>Insert title here</title>
     <script language="javascript" src="../../js/validation.js"></script>
+    <script language="javascript" src="../../../js/jquery-2.1.4.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#radioVoy").click(function(){
+                $("#selectvoy").show();
+                $("#selectdest").hide();
+                $("#selectcat").hide();
+            });
+            $("#radioCat").click(function(){
+                $("#selectvoy").hide();
+                $("#selectdest").hide();
+                $("#selectcat").show();
+            });
+            $("#radioDest").click(function(){
+                $("#selectvoy").hide();
+                $("#selectdest").show();
+                $("#selectcat").hide();
+            });
+
+        });
+    </script>
 </head>
 <body>
 <div class="container">
@@ -55,12 +87,45 @@ $listMedia = $media->getMedia();
                 <label>play list de :</label>
             </td>
             <td>
-                <select name="choix">
-                                <option value="0"  selected="selected" >Voyage </option>
-                                <option value="1">Destination </option>
-                                <option value="2">Categorie Voyage </option>
+                <input type="radio" name="selectplsylist" value="0" id="radioVoy">Voyage<br>
+                <input type="radio" name="selectplsylist" value="1" id="radioDest">Destination<br>
+                <input type="radio" name="selectplsylist" value="2" id="radioCat">Categorie Voyager<br>
 
-<p ></p>
+<!--                <select name="choix">-->
+<!--                                <option value="0"  selected="selected" >Voyage </option>-->
+<!--                                <option value="1">Destination </option>-->
+<!--                                <option value="2">Categorie Voyage </option>-->
+<!---->
+<!--                </select>-->
+                <select id="selectcat" name="id_cat_voy" hidden>
+                    <option value=''>Choisir Une Categorie</option>
+                    <?php
+                    while($dataCat=$listCat->fetch()){
+                        echo("<option value='".$dataCat["id_cat_voy"]."'>");
+                        echo($dataCat["nom_cat_voy"]);
+                        echo("</option>");
+                    }
+                    ?>
+                </select>
+                <select id="selectdest" name="id_dest">
+                    <option value=''>Choisir Une Destination</option>
+                    <?php
+                    while($dataDest=$listDest->fetch()){
+                        echo("<option value='".$dataDest["id_dest"]."'>");
+                        echo($dataDest["nom_dest"]);
+                        echo("</option>");
+                    }
+                    ?>
+                </select>
+                <select id="selectvoy" name="id_voy" hidden>
+                    <option value=''>Choisir Un Voyage</option>
+                    <?php
+                    while($datavoy=$listvoy->fetch()){
+                        echo("<option value='".$datavoy["id_voy"]."'>");
+                        echo($datavoy["titre_voy"]);
+                        echo("</option>");
+                    }
+                    ?>
                 </select>
             </td>
             </tr>
@@ -77,8 +142,6 @@ $listMedia = $media->getMedia();
                         echo("<br>");
                     }
                     ?>
-<!--                   <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
-                        <input type="checkbox" name="vehicle2" value="Car"> I have a car -->
             </td>
             </tr>
             <tr class="info">
