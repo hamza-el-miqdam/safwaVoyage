@@ -32,6 +32,8 @@ $listCat = $cat->getCat_Voyage();
     <link rel="stylesheet" href="../css/style.css"/>
     <script src="../js/jquery-1.12.3.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script language="javascript" src="../backend/js/validation.js"></script>
+
 
 
 </head>
@@ -95,6 +97,10 @@ $listCat = $cat->getCat_Voyage();
                     <form enctype="multipart/form-data" name="contactForm" action="../backend/actions/Contact/ajouterAction.php" method="post">
                         <div class="well row">
                             <table class="table table-hover">
+                                <tr id="erreurline" class="info">
+                                    <td colspan=2 id="bloc_erreur">
+                                    </td>
+                                </tr>
                                 <tr id="nom_contact" class="info">
                                     <td>
                                         <h3>Votre Nom *</h3>
@@ -140,7 +146,7 @@ $listCat = $cat->getCat_Voyage();
 
                                 <tr class="info">
                                     <td colspan=2 align="center">
-                                        <input  class="btn btn-success" type="button"  value="Reserver" onclick="valider(contactForm,'ajouterContact')" />
+                                        <input  class="btn btn-success" type="button"  value="Envoyer" onclick="valider(contactForm,'ajouterContact')" />
                                     </td>
                                 </tr>
                             </table>

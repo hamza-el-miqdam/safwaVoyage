@@ -215,7 +215,7 @@ function valider(form,type) {
         }
 
         if (form.desc_contact.value == "") {
-            document.getElementById("description_contact").className = "danger";
+            document.getElementById("desc_contact").className = "danger";
             erreur += "- Veuillez entrer plus de details sur la reservation.<br/>";
         }
     }
@@ -224,6 +224,7 @@ function valider(form,type) {
     
         } 
     if(erreur != "") {
+            document.getElementById("erreurline").className="danger";
             document.getElementById("bloc_erreur").innerHTML = "<div id='erreur'>" + erreur + "</div>";
         }
     

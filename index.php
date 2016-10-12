@@ -65,7 +65,7 @@ $listdest = $des->getDest();
                         echo("</a></li>");}
                     ?>
                     
-                    <li><a href="page/contact.php">Contact</a></li>
+                    <li><a href="pages/contact.php">Contact</a></li>
                   </ul>
                     <!--<li><a href="#">Omra</a></li>
                     <li><a href="#">Voyager organisé</a></li>
