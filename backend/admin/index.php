@@ -40,6 +40,7 @@
               <div class="row">
                 <h4 class="titre col-md-3">Gestion des Utilisateurs:</h4>
                 <a href="../views/user/index.php" type="button" class="col-md-3 btn">Utilisateurs</a>
+                  <a href="../views/contact/index.php" type="button" class="col-md-3 btn">Contact</a>
               </div>
               <!--<div class="row">
                 <h4 class="titre col-md-3">Gestion des Hotels:</h4>

@@ -26,7 +26,7 @@ $listMedia = $media->getMedia();
     <div class="btn btn-danger"> Annuler</div></a>
 </div></div>
 <div id="form" class=" container">
-    <form enctype="multipart/form-data" name="play_listForm" action="../../actions/Dest/ajouterAction.php" method="post">
+    <form enctype="multipart/form-data" name="play_listForm" action="../../actions/Contact/ajouterAction.php" method="post">
         <div class="well row">
         <table class="table table-hover">
             <tr class="danger">

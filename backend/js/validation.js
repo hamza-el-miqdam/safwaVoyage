@@ -149,6 +149,7 @@ function valider(form,type) {
             document.getElementById("idmedia").className = "danger";
             erreur += "- Veuillez indique une image pour la destination.<br/>";
         }
+
         if (form.description_dest.value == "") {
             document.getElementById("iddescription_dest").className = "danger";
             erreur += "- Veuillez entrer le Description de la destination.<br/>";
@@ -204,6 +205,17 @@ function valider(form,type) {
         if (form.ext_Type_Media.value == "") {
             document.getElementById("idext_Type_Media").className = "danger";
             erreur += "- Veuillez indique les extensions supporte.<br/>";
+        }
+    }
+    if (type == "ajouterContact") {
+        if (form.nom_contact.value == "") {
+            document.getElementById("nom_contact").className = "danger";
+            erreur += "- Veuillez entrer votre nom.<br/>";
+        }
+
+        if (form.desc_contact.value == "") {
+            document.getElementById("description_contact").className = "danger";
+            erreur += "- Veuillez entrer plus de details sur la reservation.<br/>";
         }
     }
     if (erreur == "") {
