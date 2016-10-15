@@ -58,13 +58,14 @@ $listvoy = $voy->getVoyage();
     <div class="btn btn-danger"> Annuler</div></a>
 </div></div>
 <div id="form" class=" container">
-    <form enctype="multipart/form-data" name="play_listForm" action="../../actions/Contact/ajouterAction.php" method="post">
+    <form enctype="multipart/form-data" name="play_listForm" action="../../actions/play_list/ajouterAction.php" method="post">
         <div class="well row">
         <table class="table table-hover">
-            <tr class="danger">
+            <tr id="erreurline" class="info">
                 <td colspan=2 id="bloc_erreur">
                 </td>
             </tr>
+
             <tr id="nom_play_list" class="info">
                 <td>
                     <label>nom</label>
@@ -87,8 +88,8 @@ $listvoy = $voy->getVoyage();
                 <label>play list de :</label>
             </td>
             <td>
+                <input type="radio" name="selectplsylist" value="1" id="radioDest" checked >Destination<br>
                 <input type="radio" name="selectplsylist" value="0" id="radioVoy">Voyage<br>
-                <input type="radio" name="selectplsylist" value="1" id="radioDest">Destination<br>
                 <input type="radio" name="selectplsylist" value="2" id="radioCat">Categorie Voyager<br>
 
 <!--                <select name="choix">-->
@@ -137,7 +138,7 @@ $listvoy = $voy->getVoyage();
 
                     <?php
                     while($dataMedia=$listMedia->fetch()){
-                        echo("<input type='checkbox' value='".$dataMedia["id_media"]."'>");
+                        echo("<input type='checkbox' name='media[]' value='".$dataMedia["id_media"]."'>");
                         echo($dataMedia["nom_media"]);
                         echo("<br>");
                     }

@@ -33,6 +33,7 @@ function valider(form,type) {
     var erreur = "";
     var email = "";
     var tel = "";
+
     if (type == "ajouterVoyage") {
         if (form.titre_voy.value == "") {
             document.getElementById("idtitre").className="danger";
@@ -131,6 +132,10 @@ function valider(form,type) {
         }
     }
     if (type == "ajouterplay_list") {
+
+        document.getElementById("nom_play_list").className = "info";
+        document.getElementById("description_play_list").className = "info";
+
         if (form.name_paly_list.value == "") {
             document.getElementById("nom_play_list").className = "danger";
             erreur += "- Veuillez indique le nom de la play list .<br/>";
@@ -138,10 +143,6 @@ function valider(form,type) {
         if (form.desc_play_list.value == "") {
             document.getElementById("description_play_list").className = "danger";
             erreur += "- Veuillez entrer le Description de la destination.<br/>";
-        }
-        if (form.nom_dest.value == "") {
-            document.getElementById("idnom_dest").className = "danger";
-            erreur += "- Veuillez entrer le Nom de la ville de destination.<br/>";
         }
     }
 
@@ -221,7 +222,6 @@ function valider(form,type) {
     }
     if (erreur == "") {
             form.submit();
-    
         } 
     if(erreur != "") {
             document.getElementById("erreurline").className="danger";

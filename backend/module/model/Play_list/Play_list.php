@@ -4,27 +4,34 @@
 class Play_list extends Connection{
 
 
-
     private $id_play_list;
     private $name_paly_list;
     private $desc_play_list;
-    private $choice_play_list;
-    private $id_play_list_voyage;
+    private $media_list;
+    private $id_dest_play;
+    private $id_cat_play;
+    private $id_voy_play;
+
 
 
     private $id_play_listCol="id_play_list";
     private $name_paly_listCol="name_paly_list";
     private $desc_play_listCol="desc_play_list";
-    private $choice_play_listCol="choice_play_list";
-    private $id_play_list_voyageCol="id_play_list_voyage";
+    private $media_listCol="media_list";
+    private $id_dest_playCol="id_dest_play";
+    private $id_cat_playCol="id_cat_play";
+    private $id_voy_playCol="id_voy_play";
+
 
     private $table="play_list";
 
-    public function __construct($name=NULL,$desc=NULL,$choice=NULL,$list_voyage=NULL){
+    public function __construct($name=NULL,$desc=NULL,$media=NULL,$dest_play=NULL,$cat_play=NULL,$voy_play=NULL){
         $this->name_paly_list=$name;
         $this->desc_play_list=$desc;
-        $this->choice_play_list=$choice;
-        $this->id_play_list_voyage=$list_voyage;
+        $this->media_list=$media;
+        $this->id_dest_play=$dest_play;
+        $this->id_cat_play=$cat_play;
+        $this->id_voy_play=$voy_play;
 
     }
 
@@ -34,9 +41,14 @@ class Play_list extends Connection{
         $sql="INSERT INTO {$this->table} VALUES('',
               '{$this->name_paly_list}',
               '{$this->desc_play_list}',
-              '{$this->choice_play_list}',
-              '{$this->id_play_list_voyage}'";
+              '{$this->media_list}',
+              '{$this->id_dest_play}',
+              '{$this->id_cat_play}',
+              '{$this->id_voy_play}')";
+
+        echo $sql;
         $query =$this->getPDO()->query($sql);
+
         return $query;
     }
     #READ
@@ -56,14 +68,17 @@ class Play_list extends Connection{
         return $query;
     }
     #UPDATE
-    public function updatePlay_list($id,$name,$desc,$choice,$list_voyage)
+    public function updatePlay_list($id,$name,$desc,$media,$dest_play,$cat_play,$voy_play)
     {
 
         $sql = "UPDATE {$this->table} SET
                   {$this->name_paly_listCol}='$name'
                   ,{$this->desc_play_listCol}='$desc'
-                  ,{$this->choice_play_listCol}='$choice'
-                  ,{$this->id_play_list_voyageCol}='$list_voyage'
+                  ,{$this->media_listCol}='$media'
+                  ,{$this->id_dest_playCol}='$dest_play'
+                  ,{$this->id_cat_playCol}='$cat_play'
+                  ,{$this->id_voy_playCol}='$voy_play'
+
                   WHERE {$this->id_play_listCol}=".$id;
         $query = $this->getPDO()->query($sql);
         return $query;

@@ -15,15 +15,15 @@
         <header>
             <div class="jumbotron">
                 <div class="container">
-                    <h1>Destinations</h1>
-                    <h3>Editeur des Destinations</h3>
+                    <h1>Play Lists</h1>
+                    <h3>Editeur des Play Lista</h3>
                     <a href='../../logout.php' class="btn btn-danger"><span class="glyphicons glyphicons-log-out"></span> Logout</a>
                 </div>
             </div>
         </header>
         <?php
 
-        include_once("../../forms/Dest/editer.inc");
+        include_once("../../forms/play_list/editer.inc");
 
         ?>
     </body>

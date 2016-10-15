@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ef882c2-fed0-4506-b754-43cf128efc10" name="Default" comment="list">
+    <list default="true" id="7ef882c2-fed0-4506-b754-43cf128efc10" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/actions/play_list/ajouterAction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/actions/play_list/deleteAction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/actions/play_list/editerAction.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Contact/ajouterAction.php" afterPath="$PROJECT_DIR$/backend/actions/Contact/ajouterAction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/play_list/ajouter.inc" afterPath="$PROJECT_DIR$/backend/forms/play_list/ajouter.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/play_list/editer.inc" afterPath="$PROJECT_DIR$/backend/forms/play_list/editer.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/play_list/editerActionForm.php" afterPath="$PROJECT_DIR$/backend/forms/play_list/editerActionForm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/js/validation.js" afterPath="$PROJECT_DIR$/backend/js/validation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/contact.php" afterPath="$PROJECT_DIR$/pages/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/module/model/Dest/Dest.php" afterPath="$PROJECT_DIR$/backend/module/model/Dest/Dest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/module/model/Media/Media.php" afterPath="$PROJECT_DIR$/backend/module/model/Media/Media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/module/model/Play_list/Play_list.php" afterPath="$PROJECT_DIR$/backend/module/model/Play_list/Play_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/module/model/Voyage/Voyage.php" afterPath="$PROJECT_DIR$/backend/module/model/Voyage/Voyage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/play_list/editer.php" afterPath="$PROJECT_DIR$/backend/views/play_list/editer.php" />
     </list>
     <ignored path="SafwaCloud9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,113 +39,96 @@
       <file leaf-file-name="ajouter.inc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/forms/play_list/ajouter.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Voyage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/module/model/Voyage/Voyage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="36" />
-              <folding>
-                <marker date="1476038116311" expanded="true" signature="1505:1789" ph="INSERT INTO $... " />
-                <marker date="1476038116311" expanded="true" signature="1960:2011" ph="SELECT * FRO... $" />
-                <marker date="1476038116311" expanded="true" signature="2051:2065" ph="SELECT * FRO... $" />
-                <marker date="1476038116311" expanded="true" signature="2231:2283" ph="DELETE FROM " />
-                <marker date="1476038116311" expanded="true" signature="2530:3173" ph="UPDATE ${{$t... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajouter.inc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/forms/voyage/ajouter.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1964">
-              <caret line="40" column="17" selection-start-line="37" selection-start-column="12" selection-end-line="40" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="99" column="44" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="50" />
+            <state relative-caret-position="330">
+              <caret line="15" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+        <entry file="file://$PROJECT_DIR$/backend/views/play_list/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1336">
-              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-              <folding>
-                <marker date="1476314205190" expanded="true" signature="6966:6990" ph="..." />
-                <marker date="1476314205190" expanded="true" signature="7391:7415" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validation.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/js/validation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="213" column="58" selection-start-line="213" selection-start-column="58" selection-end-line="213" selection-end-column="58" />
+            <state relative-caret-position="308">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/index.php">
+      <file leaf-file-name="editer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/views/play_list/editer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editerActionForm.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/forms/play_list/editerActionForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editerAction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/actions/Dest/editerAction.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/module/model/Dest/Dest.php">
+      <file leaf-file-name="editerActionForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/forms/Cat_Voyage/editerActionForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1166">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Play_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/module/model/Play_list/Play_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="42" />
               <folding>
-                <marker date="1476039146022" expanded="true" signature="920:1080" ph="INSERT INTO $... " />
-                <marker date="1476039146022" expanded="true" signature="1249:1301" ph="SELECT * FRO... $" />
-                <marker date="1476039146022" expanded="true" signature="1341:1355" ph="SELECT * FRO... $" />
-                <marker date="1476039146022" expanded="true" signature="1519:1572" ph="DELETE FROM " />
-                <marker date="1476039146022" expanded="true" signature="1786:2151" ph="UPDATE ${{$t... " />
+                <marker date="1476451668375" expanded="true" signature="998:1192" ph="INSERT INTO $... " />
+                <marker date="1476451668375" expanded="true" signature="998:1230" ph="INSERT INTO $... " />
+                <marker date="1476451668375" expanded="true" signature="998:1269" ph="INSERT INTO $... " />
+                <marker date="1476451668375" expanded="true" signature="1464:1521" ph="SELECT * FRO... $" />
+                <marker date="1476451668375" expanded="true" signature="1561:1575" ph="SELECT * FRO... $" />
+                <marker date="1476451668375" expanded="true" signature="1744:1802" ph="DELETE FROM " />
+                <marker date="1476451668375" expanded="true" signature="2009:2410" ph="UPDATE ${{$t... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajouterAction.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/actions/Cat_Voyage/ajouterAction.php">
+      <file leaf-file-name="deleteAction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/actions/Cat_Voyage/deleteAction.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="66">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="presentation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/presentation.php">
+      <file leaf-file-name="validation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/js/validation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1072">
-              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+            <state relative-caret-position="4356">
+              <caret line="226" column="69" selection-start-line="226" selection-start-column="69" selection-end-line="226" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -169,19 +162,26 @@
         <option value="$PROJECT_DIR$/backend/module/connection.php" />
         <option value="$PROJECT_DIR$/backend/module/model/Cat_Voyage/Cat_Voyage.php" />
         <option value="$PROJECT_DIR$/pages/Voyage_view.php" />
-        <option value="$PROJECT_DIR$/backend/module/model/Voyage/Voyage.php" />
-        <option value="$PROJECT_DIR$/backend/module/model/Media/Media.php" />
-        <option value="$PROJECT_DIR$/backend/module/model/Dest/Dest.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/backend/module/model/play_liste/play_liste.php" />
         <option value="$PROJECT_DIR$/pages/presentation.php" />
-        <option value="$PROJECT_DIR$/backend/module/model/Play_list/Play_list.php" />
         <option value="$PROJECT_DIR$/backend/views/play_list/index.php" />
         <option value="$PROJECT_DIR$/backend/admin/index.php" />
-        <option value="$PROJECT_DIR$/backend/forms/play_list/ajouter.inc" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/contact.php" />
+        <option value="$PROJECT_DIR$/backend/actions/Contact/ajouterAction.php" />
+        <option value="$PROJECT_DIR$/backend/module/model/Media/Media.php" />
+        <option value="$PROJECT_DIR$/backend/module/model/Dest/Dest.php" />
+        <option value="$PROJECT_DIR$/backend/module/model/Voyage/Voyage.php" />
+        <option value="$PROJECT_DIR$/backend/actions/play_list/deleteAction.php" />
+        <option value="$PROJECT_DIR$/backend/actions/play_list/ajouterAction.php" />
+        <option value="$PROJECT_DIR$/backend/actions/play_list/editerAction.php" />
+        <option value="$PROJECT_DIR$/backend/views/play_list/editer.php" />
+        <option value="$PROJECT_DIR$/backend/forms/play_list/editer.inc" />
         <option value="$PROJECT_DIR$/backend/js/validation.js" />
+        <option value="$PROJECT_DIR$/backend/forms/play_list/ajouter.inc" />
+        <option value="$PROJECT_DIR$/backend/module/model/Play_list/Play_list.php" />
+        <option value="$PROJECT_DIR$/backend/forms/play_list/editerActionForm.php" />
       </list>
     </option>
   </component>
@@ -230,6 +230,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,15 +263,170 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9 - Copy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9 - Copy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9 - Copy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play_list" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9 - Copy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9 - Copy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Contact" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9 - Copy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cat_Voyage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9 - Copy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9 - Copy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cat_Voyage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
@@ -282,11 +438,11 @@
       <recent name="C:\wamp\www\SafwaCloud9\BD" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\SafwaCloud9 - Copy\backend\actions" />
       <recent name="C:\wamp64\www\SafwaCloud9\backend\views" />
       <recent name="C:\wamp64\www\SafwaCloud9\backend\forms" />
       <recent name="C:\wamp64\www\SafwaCloud9\backend\module\model" />
       <recent name="C:\wamp\www\SafwaCloud9\backend\views\reservation" />
-      <recent name="C:\wamp\www\SafwaCloud9\backend\actions\Reservation" />
     </key>
   </component>
   <component name="RunManager">
@@ -363,7 +519,10 @@
       <workItem from="1476192902759" duration="1985000" />
       <workItem from="1476294929181" duration="3069000" />
       <workItem from="1476308810092" duration="4865000" />
-      <workItem from="1476314036821" duration="545000" />
+      <workItem from="1476314036821" duration="1213000" />
+      <workItem from="1476358799886" duration="1096000" />
+      <workItem from="1476433735790" duration="11549000" />
+      <workItem from="1476527947231" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="list">
       <created>1476313895035</created>
@@ -372,18 +531,34 @@
       <option name="project" value="LOCAL" />
       <updated>1476313895035</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="correction contact, add block erreurs, add links from index to contact">
+      <created>1476314650483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1476314650483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45115000" />
+    <option name="totallyTimeSpent" value="58505000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.111707844" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116541356" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -437,7 +612,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="list" />
-    <option name="LAST_COMMIT_MESSAGE" value="list" />
+    <MESSAGE value="correction contact, add block erreurs, add links from index to contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction contact, add block erreurs, add links from index to contact" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -452,90 +628,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/forms/Type_Media/editerActionForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/forms/User/editerActionForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/module/model/Type_Media/Type_Media.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/actions/Reservation/deleteAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/reservation/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/module/model/Reservation/Reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="4" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/actions/Reservation/editerAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/actions/Voyage/editerAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/forms/reservation/editer.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/actions/Cat_Voyage/editerAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/voyage/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="0" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD/BD1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/forms/Cat_Voyage/editer.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -630,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/module/model/Cat_Voyage/Cat_Voyage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/forms/Cat_Voyage/ajouter.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -672,27 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/module/model/Media/Media.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-          <folding>
-            <marker date="1476038869691" expanded="true" signature="996:1179" ph="..." />
-            <marker date="1476038869691" expanded="true" signature="1359:1412" ph="..." />
-            <marker date="1476038869691" expanded="true" signature="1452:1466" ph="..." />
-            <marker date="1476038869691" expanded="true" signature="1631:1685" ph="..." />
-            <marker date="1476038869691" expanded="true" signature="1893:2297" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/forms/play_list/editer.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
@@ -707,17 +771,190 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/presentation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2046">
+          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/actions/Contact/ajouterAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="99" column="44" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/module/model/Media/Media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="37" column="166" selection-start-line="37" selection-start-column="166" selection-end-line="37" selection-end-column="166" />
+          <folding>
+            <marker date="1476434208984" expanded="true" signature="1006:1159" ph="..." />
+            <marker date="1476434208984" expanded="true" signature="1339:1392" ph="..." />
+            <marker date="1476434208984" expanded="true" signature="1432:1446" ph="..." />
+            <marker date="1476434208984" expanded="true" signature="1611:1665" ph="..." />
+            <marker date="1476434208984" expanded="true" signature="1877:2209" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/module/model/Cat_Voyage/Cat_Voyage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <marker date="1476033740381" expanded="true" signature="504:588" ph="INSERT INTO $... " />
+            <marker date="1476033740381" expanded="true" signature="766:821" ph="SELECT * FRO... $" />
+            <marker date="1476033740381" expanded="true" signature="861:875" ph="SELECT * FRO... $" />
+            <marker date="1476033740381" expanded="true" signature="1050:1106" ph="DELETE FROM " />
+            <marker date="1476033740381" expanded="true" signature="1274:1448" ph="UPDATE ${{$t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/module/model/Voyage/Voyage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="74" column="112" selection-start-line="74" selection-start-column="112" selection-end-line="74" selection-end-column="112" />
+          <folding>
+            <marker date="1476434209137" expanded="true" signature="1515:1768" ph="INSERT INTO $... " />
+            <marker date="1476434209137" expanded="true" signature="1515:1769" ph="INSERT INTO $... " />
+            <marker date="1476434209137" expanded="true" signature="1940:1991" ph="SELECT * FRO... $" />
+            <marker date="1476434209137" expanded="true" signature="2031:2045" ph="SELECT * FRO... $" />
+            <marker date="1476434209137" expanded="true" signature="2211:2263" ph="DELETE FROM " />
+            <marker date="1476434209137" expanded="true" signature="2501:3082" ph="UPDATE ${{$t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/module/model/Dest/Dest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <marker date="1476434209065" expanded="true" signature="930:1061" ph="INSERT INTO $... " />
+            <marker date="1476434209065" expanded="true" signature="1230:1282" ph="SELECT * FRO... $" />
+            <marker date="1476434209065" expanded="true" signature="1322:1336" ph="SELECT * FRO... $" />
+            <marker date="1476434209065" expanded="true" signature="1500:1553" ph="DELETE FROM " />
+            <marker date="1476434209065" expanded="true" signature="1771:2076" ph="UPDATE ${{$t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/actions/Voyage/ajouterAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/actions/Media/editerAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/actions/Dest/ajouterAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/forms/voyage/ajouter.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2464">
+          <caret line="112" column="37" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/actions/play_list/deleteAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/actions/play_list/ajouterAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/actions/play_list/editerAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/forms/play_list/editer.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/play_list/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/module/model/Play_list/Play_list.php">
+    <entry file="file://$PROJECT_DIR$/backend/views/play_list/editer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="58" selection-start-line="14" selection-start-column="4" selection-end-line="18" selection-end-column="58" />
+        <state relative-caret-position="88">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/forms/play_list/ajouter.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/js/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4356">
+          <caret line="226" column="69" selection-start-line="226" selection-start-column="69" selection-end-line="226" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -729,97 +966,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index2.php">
+    <entry file="file://$PROJECT_DIR$/backend/actions/Cat_Voyage/deleteAction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="66">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/module/model/Dest/Dest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding>
-            <marker date="1476039146022" expanded="true" signature="920:1080" ph="INSERT INTO $... " />
-            <marker date="1476039146022" expanded="true" signature="1249:1301" ph="SELECT * FRO... $" />
-            <marker date="1476039146022" expanded="true" signature="1341:1355" ph="SELECT * FRO... $" />
-            <marker date="1476039146022" expanded="true" signature="1519:1572" ph="DELETE FROM " />
-            <marker date="1476039146022" expanded="true" signature="1786:2151" ph="UPDATE ${{$t... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/module/model/Voyage/Voyage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <marker date="1476038116311" expanded="true" signature="1505:1789" ph="INSERT INTO $... " />
-            <marker date="1476038116311" expanded="true" signature="1960:2011" ph="SELECT * FRO... $" />
-            <marker date="1476038116311" expanded="true" signature="2051:2065" ph="SELECT * FRO... $" />
-            <marker date="1476038116311" expanded="true" signature="2231:2283" ph="DELETE FROM " />
-            <marker date="1476038116311" expanded="true" signature="2530:3173" ph="UPDATE ${{$t... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/forms/play_list/ajouter.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/presentation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1336">
-          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-          <folding>
-            <marker date="1476314205190" expanded="true" signature="6966:6990" ph="..." />
-            <marker date="1476314205190" expanded="true" signature="7391:7415" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contact.php">
+    <entry file="file://$PROJECT_DIR$/backend/forms/Cat_Voyage/editerActionForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="99" column="44" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="50" />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/forms/voyage/ajouter.inc">
+    <entry file="file://$PROJECT_DIR$/backend/module/model/Play_list/Play_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1964">
-          <caret line="40" column="17" selection-start-line="37" selection-start-column="12" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="352">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <marker date="1476451668375" expanded="true" signature="998:1192" ph="INSERT INTO $... " />
+            <marker date="1476451668375" expanded="true" signature="998:1230" ph="INSERT INTO $... " />
+            <marker date="1476451668375" expanded="true" signature="998:1269" ph="INSERT INTO $... " />
+            <marker date="1476451668375" expanded="true" signature="1464:1521" ph="SELECT * FRO... $" />
+            <marker date="1476451668375" expanded="true" signature="1561:1575" ph="SELECT * FRO... $" />
+            <marker date="1476451668375" expanded="true" signature="1744:1802" ph="DELETE FROM " />
+            <marker date="1476451668375" expanded="true" signature="2009:2410" ph="UPDATE ${{$t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/actions/Dest/editerAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/js/validation.js">
+    <entry file="file://$PROJECT_DIR$/backend/forms/play_list/editerActionForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="213" column="58" selection-start-line="213" selection-start-column="58" selection-end-line="213" selection-end-column="58" />
+        <state relative-caret-position="22">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding />
         </state>
       </provider>

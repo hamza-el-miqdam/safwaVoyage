@@ -14,12 +14,12 @@ $tel=(isset($_POST{"tel_contact"}))?$_POST{"tel_contact"}:"";
 $email=(isset($_POST{"email_contact"}))?$_POST{"email_contact"}:"";
 $desc=(isset($_POST{"desc_contact"}))?$_POST{"desc_contact"}:"";
 
-if($nom_contact!=""&&$prenom_contact!=""&&$tel!=""&&$email!=""&&$desc!="") {
+if($nom_contact!=""&&$desc!="") {
     $categorie = new Contact(addslashes($nom_contact),addslashes($prenom_contact),addslashes($tel),addslashes($email),addslashes($desc));
     $resultat = $categorie->saveContact();
     if ($resultat) {
         echo("Enregistrement reussie");
-        header('Refresh: 2; URL = editer.inc');
+        header('Refresh: 2; URL = ../../../pages/contact.php');
     } else {
         echo("Echec d'enregistrement");
     }
