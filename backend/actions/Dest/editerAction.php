@@ -20,7 +20,7 @@ if($nom_dest!=""&&$id_media_dest!=""&&$pays_dest!=""&&$description_dest!=""&&$id
         echo("Echec d'enregistrement");
     }
 
-    header("Refresh: 2;Location: ../../views/dest/editer.inc");
+    header("Location: ../../views/dest/editer.php");
 }else{
     echo("vous n'avez pas le droit d'acces a cette page");
 }?>

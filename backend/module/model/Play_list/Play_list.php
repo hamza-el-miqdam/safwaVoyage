@@ -5,7 +5,7 @@ class Play_list extends Connection{
 
 
     private $id_play_list;
-    private $name_paly_list;
+    private $name_play_list;
     private $desc_play_list;
     private $media_list;
     private $id_dest_play;
@@ -15,7 +15,7 @@ class Play_list extends Connection{
 
 
     private $id_play_listCol="id_play_list";
-    private $name_paly_listCol="name_paly_list";
+    private $name_play_listCol="name_play_list";
     private $desc_play_listCol="desc_play_list";
     private $media_listCol="media_list";
     private $id_dest_playCol="id_dest_play";
@@ -26,7 +26,7 @@ class Play_list extends Connection{
     private $table="play_list";
 
     public function __construct($name=NULL,$desc=NULL,$media=NULL,$dest_play=NULL,$cat_play=NULL,$voy_play=NULL){
-        $this->name_paly_list=$name;
+        $this->name_play_list=$name;
         $this->desc_play_list=$desc;
         $this->media_list=$media;
         $this->id_dest_play=$dest_play;
@@ -39,7 +39,7 @@ class Play_list extends Connection{
     #CREATE
     public function savePlay_list(){
         $sql="INSERT INTO {$this->table} VALUES('',
-              '{$this->name_paly_list}',
+              '{$this->name_play_list}',
               '{$this->desc_play_list}',
               '{$this->media_list}',
               '{$this->id_dest_play}',
@@ -72,7 +72,7 @@ class Play_list extends Connection{
     {
 
         $sql = "UPDATE {$this->table} SET
-                  {$this->name_paly_listCol}='$name'
+                  {$this->name_play_listCol}='$name'
                   ,{$this->desc_play_listCol}='$desc'
                   ,{$this->media_listCol}='$media'
                   ,{$this->id_dest_playCol}='$dest_play'

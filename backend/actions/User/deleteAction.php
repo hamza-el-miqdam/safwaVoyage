@@ -11,7 +11,7 @@ require_once '../../module/model/User/User.php';
 		}else{
 			echo("Echec de suppression");
 		}
-    header("Refresh: 2;Location: ../../views/user/editer.inc");
+        header("Location: ../../views/user/editer.php");
 	}else{
 		echo("Vous n'avez pas le droit d'acces a cette page !!");
 		

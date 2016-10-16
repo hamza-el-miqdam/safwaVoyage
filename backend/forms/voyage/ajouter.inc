@@ -1,14 +1,14 @@
 <?php
 require_once '../../module/connection.php';
-require_once '../../module/model/Media/Media.php';
+require_once '../../module/model/Play_list/Play_list.php';
 require_once '../../module/model/Dest/Dest.php';
 require_once '../../module/model/Cat_Voyage/Cat_Voyage.php';
 
-$media =new Media();
+$media =new Play_list();
 $dest =new Dest();
 $cat =new Cat_Voyage();
 
-$listMedia = $media->getMedia();
+$listMedia = $media->getPlay_list();
 $listDest = $dest->getDest();
 $listCat = $cat->getCat_Voyage();
 ?>
@@ -35,7 +35,7 @@ $listCat = $cat->getCat_Voyage();
     <form enctype="multipart/form-data" name="VoyageForm" action="../../actions/Voyage/ajouterAction.php" method="post">
         <div class="well row">
         <table class="table table-hover">
-            <tr class="danger">
+            <tr id="erreurline" class="info">
                 <td colspan=2 id="bloc_erreur">
                 </td>
             </tr>
@@ -125,15 +125,15 @@ $listCat = $cat->getCat_Voyage();
 
             <tr id="idmedia" class="info">
             <td>
-                <label>Media</label>
+                <label>Play list</label>
             </td>
             <td>
                 <select name="id_media_voy">
-                    <option value=''>Choisir Une Image</option>
+                    <option value=''>Choisir Une play list</option>
                     <?php
                     while($dataMedia=$listMedia->fetch()){
-                        echo("<option value='".$dataMedia["id_media"]."'>");
-                        echo($dataMedia["nom_media"]);
+                        echo("<option value='".$dataMedia["id_play_list"]."'>");
+                        echo($dataMedia["name_play_list"]);
                         echo("</option>");
                     }
                     ?>

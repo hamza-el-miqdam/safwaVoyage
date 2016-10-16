@@ -22,8 +22,7 @@ if($titre!=""&&$date_voyage!=""&&$prix!=""&&$text!=""&&$idmedia!=""&&$s_titre!="
     } else {
         echo("Echec d'enregistrement");
     }
-    sleep(5);
-    header("Location: ../../views/voyage/editer.inc");
+    header("Location: ../../views/voyage/editer.php");
 }else{
     echo("vous n'avez pas le droit d'accés à cette page");
 }?>

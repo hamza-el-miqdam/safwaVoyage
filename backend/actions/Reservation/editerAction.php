@@ -22,8 +22,7 @@ if($res_nom!=""&&$res_prenom!=""&&$res_nbr_adulte!=""&&$res_nbr_enfants!=""&&$re
     } else {
         echo("Echec d'enregistrement");
     }
-    sleep(5);
-    header("Location: ../../views/Reservation/editer.inc");
+    header("Location: ../../views/Reservation/editer.php");
 }else{
     echo("vous n'avez pas le droit d'acces a cette page");
 }?>

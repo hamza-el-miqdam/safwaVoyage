@@ -16,7 +16,7 @@
             <div class="jumbotron">
                 <div class="container">
                     <h1>Play Lists</h1>
-                    <h3>Editeur des Play Lista</h3>
+                    <h3>Editeur des Play Lists</h3>
                     <a href='../../logout.php' class="btn btn-danger"><span class="glyphicons glyphicons-log-out"></span> Logout</a>
                 </div>
             </div>

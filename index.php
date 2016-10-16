@@ -79,7 +79,8 @@ $listdest = $des->getDest();
           </div>
         </nav>
 <div id="separateur"></div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="slidercaro" class="well">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox" >
               
@@ -154,10 +155,10 @@ $listdest = $des->getDest();
               <span class="sr-only">Next</span>
             </a>
         </div>
-
+        </div>
         <div id="presentation" class="container text-center">
 
-            <div id="collections" class="col-md-10">
+            <div id="collections" class="col-md-10 well">
                 <h3>Nos Destinations</h3><br>
                 <?php
                     $i=1;
@@ -190,7 +191,7 @@ $listdest = $des->getDest();
                 ?>
             </div>
 
-            <div id="pub" class="col-md-2">
+            <div id="pub" class="col-md-2 ">
                 <div class="well">
                     <p>Some text..</p>
                 </div>

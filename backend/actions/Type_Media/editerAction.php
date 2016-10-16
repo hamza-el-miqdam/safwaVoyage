@@ -14,7 +14,7 @@ if($nom_type_media!=""&&$ext_type_media!=""&&$id!="") {
     } else {
         echo("Echec d'enregistrement");
     }
-    header("Refresh: 2;Location: ../../views/type_media/editer.inc");
+    header("Location: ../../views/type_media/editer.php");
 }else{
     echo("vous n'avez pas le droit d'acces a cette page");
 }?>

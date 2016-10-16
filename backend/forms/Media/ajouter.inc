@@ -30,7 +30,7 @@ $listType_Media = $type_media->getType_Media();
     <form enctype="multipart/form-data" name="mediaForm" action="../../actions/Media/ajouterAction.php" method="post">
         <div class="well row">
         <table class="table table-hover">
-            <tr class="danger">
+            <tr id="erreurline" class="info">
                 <td colspan=2 id="bloc_erreur">
                 </td>
             </tr>

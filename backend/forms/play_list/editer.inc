@@ -26,7 +26,7 @@ $playList = $model->getPlay_list();
                 while($data = $playList->fetch()){
                     echo("<tr>");
                     echo("<td>".$data['id_play_list']."</td>");
-                    echo("<td>".$data['name_paly_list']."</td>");
+                    echo("<td>".$data['name_play_list']."</td>");
                     echo("<td>".$data['desc_play_list']."</td>");
                     echo("<td>".$data['media_list']."</td>");
                     echo("<td>".$data['id_dest_play']."</td>");

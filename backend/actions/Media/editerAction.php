@@ -99,7 +99,7 @@ if($idType_MediaMedia!="0"){
     } else {
         echo("Echec d'enregistrement");
     }
-    header("Refresh: 2;Location: ../../views/media/editer.inc");
+    header("Location: ../../views/media/editer.php");
 }else{
     echo("vous n'avais pas le droit d'acces a cette page");
 }?>

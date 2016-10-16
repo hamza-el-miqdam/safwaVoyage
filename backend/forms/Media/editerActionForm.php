@@ -61,7 +61,7 @@ $id = (isset($_GET["id"]))?$_GET["id"]:"";
     <form enctype="multipart/form-data" name="mediaForm" action="../../actions/Media/editerAction.php" method="post">
         <div class="well row">
         <table class="table table-hover">
-            <tr class="danger">
+            <tr id="erreurline" class="info">
                 <td colspan=2 id="bloc_erreur">
                 </td>
             </tr>

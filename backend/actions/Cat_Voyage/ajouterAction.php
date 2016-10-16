@@ -16,7 +16,7 @@ if($nom!=""&&$desc!="") {
     } else {
         echo("Echec d'enregistrement");
     }
-    header("Refresh: 2;Location: ../../views/cat_voyage/editer.inc");
+    header("Location: ../../views/cat_voyage/editer.php");
 }else{
     echo("Vous n'avez pas le droit d'acces a cette page");
 }?>

@@ -18,7 +18,7 @@ require_once '../../module/model/Contact/Contact.php';
         }else{
             echo("Echec de suppression");
         }
-        header("Refresh: 2;Location: ../../views/contact/editer.inc");
+        header("Location: ../../views/contact/editer.php");
 
     }else{
         echo("Vous n'avez pas le droit d'acces a cette page !!");

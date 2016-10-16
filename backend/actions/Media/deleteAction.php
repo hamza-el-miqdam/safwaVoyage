@@ -26,7 +26,7 @@ require_once '../../module/model/Media/Media.php';
         }else{
 			echo("Echec de suppression<br/>");
 		}
-        header("Refresh: 2;Location: ../../views/media/editer.inc");
+        header("Location: ../../views/media/editer.php");
 	}else{
 		echo("Vous n'avais pas le droit d'acces a cette page !!");
 		

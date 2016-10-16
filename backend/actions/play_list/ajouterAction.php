@@ -3,16 +3,19 @@ require_once '../../module/connection.php';
 require_once '../../module/model/Play_list/Play_list.php';
 
 $ch=(isset($_POST{'selectplsylist'}))?$_POST{"selectplsylist"}:"";    // echo the choice
-switch ($ch){
-    case 0:
-        $ids=(isset($_POST{"id_voy"}))?$_POST{"id_voy"}:"";
-    case 1:
-        $ids=(isset($_POST{"id_dest"}))?$_POST{"id_dest"}:"";
-    case 2:
-        $ids=(isset($_POST{"id_cat_voy"}))?$_POST{"id_cat_voy"}:"";
-}
+echo $ch;
+        if($ch==0){
+            $ids=(isset($_POST{"id_voy"}))?$_POST{"id_voy"}:"";
+        }
+        else if ($ch==1){
+            $ids=(isset($_POST{"id_dest"}))?$_POST{"id_dest"}:"";
+        }
+        else if ($ch==2){
+            $ids=(isset($_POST{"id_cat_voy"}))?$_POST{"id_cat_voy"}:"";
+        }
 
-$name_paly_list=(isset($_POST{"name_paly_list"}))?$_POST{"name_paly_list"}:"";
+
+$name_play_list=(isset($_POST{"name_play_list"}))?$_POST{"name_play_list"}:"";
 $desc_play_list=(isset($_POST{"desc_play_list"}))?$_POST{"desc_play_list"}:"";
 
 
@@ -27,17 +30,16 @@ if(!empty($amedia))
     }
 }
 
+if($name_play_list!=""&&$desc_play_list!=""&&$idsmedia!=""&&$ids!="") {
 
-
-if($name_paly_list!=""&&$desc_play_list!=""&&$idsmedia!=""&&$ids!="") {
-    
-switch ($ch) {
-    case 0:
-        $playlist = new Play_list(addslashes($name_paly_list), addslashes($desc_play_list), $idsmedia,'','',$ids);
-    case 1:
-        $playlist = new Play_list(addslashes($name_paly_list), addslashes($desc_play_list), $idsmedia,$ids,'','');
-    case 2:
-        $playlist = new Play_list(addslashes($name_paly_list), addslashes($desc_play_list), $idsmedia,'',$ids,'');
+    if($ch==0){
+        $playlist = new Play_list(addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,'','',$ids);
+    }
+    else if ($ch==1){
+        $playlist = new Play_list(addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,$ids,'','');
+    }
+    else if ($ch==2){
+        $playlist = new Play_list(addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,'',$ids,'');
 }
 
     $resultat = $playlist->savePlay_list();
@@ -49,7 +51,7 @@ switch ($ch) {
     } else {
         echo("Echec d'enregistrement");
     }
-    header("Refresh: 2;Location: ../../views/dest/editer.inc");
+    header("Location: ../../views/play_list/editer.php");
 }else{
     echo("vous n'avez pas le droit d'accés à cette page");
 }?>

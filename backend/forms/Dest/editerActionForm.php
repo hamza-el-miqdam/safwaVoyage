@@ -59,7 +59,7 @@ $listMedia = $media->getMedia();
     <form enctype="multipart/form-data" name="DestForm" action="../../actions/Dest/editerAction.php" method="post">
         <div class="row">
         <table class="table table-hover">
-            <tr class="danger">
+            <tr id="erreurline" class="info">
                 <td colspan=2 id="bloc_erreur">
                 </td>
             </tr>

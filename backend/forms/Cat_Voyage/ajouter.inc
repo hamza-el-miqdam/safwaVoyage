@@ -20,7 +20,7 @@
     <form enctype="multipart/form-data" name="cat_voyageForm" action="../../actions/Cat_Voyage/ajouterAction.php" method="post">
         <div class="well row">
         <table class="table table-hover">
-            <tr class="danger">
+            <tr id="erreurline" class="info">
                 <td colspan=2 id="bloc_erreur">
                 </td>
             </tr>

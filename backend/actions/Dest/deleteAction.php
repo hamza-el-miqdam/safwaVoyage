@@ -11,7 +11,7 @@ require_once '../../module/model/Dest/Dest.php';
 		}else{
 			echo("Echec de suppression");
 		}
-    	header("Refresh: 2;Location: ../../views/dest/editer.inc");
+    	header("Location: ../../views/dest/editer.php");
 		
 	}else{
 		echo("Vous n'avez pas le droit d'acces a cette page !!");

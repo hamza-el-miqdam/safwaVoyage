@@ -13,11 +13,10 @@ if($nom_dest!=""&&$id_media_dest!=""&&$pays_dest!=""&&$description_dest!="") {
     $resultat = $categorie->saveDest();
     if ($resultat) {
         echo("Enregistrement reussie");
-        header('Refresh: 2; URL = editer.inc');
     } else {
         echo("Echec d'enregistrement");
     }
-    header("Refresh: 2;Location: ../../views/dest/editer.inc");
+    header("Location: ../../views/dest/editer.php");
 }else{
     echo("vous n'avez pas le droit d'accés à cette page");
 }?>

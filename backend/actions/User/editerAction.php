@@ -14,7 +14,7 @@ if($id!=""&&$login!=""&&$password!="") {
     } else {
         echo("Echec d'enregistrement");
     }
-    header("Refresh: 2;Location: ../../views/user/editer.inc");
+    header("Location: ../../views/user/editer.php");
 }else{
     echo("vous n'avez pas le droit d'acces a cette page");
 }?>

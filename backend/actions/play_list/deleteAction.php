@@ -11,7 +11,7 @@ require_once '../../module/model/Play_list/Play_list.php';
 		}else{
 			echo("Echec de suppression");
 		}
-    	header("Refresh: 2;Location: ../../views/play_list/editer.inc");
+    	header("Location: ../../views/play_list/editer.php");
 	}else{
 		echo("Vous n'avez pas le droit d'acces a cette page !!");
 		

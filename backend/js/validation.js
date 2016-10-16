@@ -33,8 +33,19 @@ function valider(form,type) {
     var erreur = "";
     var email = "";
     var tel = "";
+    document.getElementById("erreurline").className="info";
 
     if (type == "ajouterVoyage") {
+        document.getElementById("idtitre").className="info";
+        document.getElementById("idstitre").className="info";
+        document.getElementById("idtext").className="info";
+        document.getElementById("idprix").className="info";
+        document.getElementById("iddate").className="info";
+        document.getElementById("idduree").className="info";
+        document.getElementById("idcat").className="info";
+        document.getElementById("iddest").className="info";
+        document.getElementById("idmedia").className="info";
+
         if (form.titre_voy.value == "") {
             document.getElementById("idtitre").className="danger";
             erreur += "- Veuillez entrer le titre du voyage en question.<br/>";
@@ -48,7 +59,6 @@ function valider(form,type) {
             erreur += "- Veuillez entrer la description du voyage en question. <br/>";
         }
         if (form.prix_voy.value == "") {
-            $("#idprix").
             document.getElementById("idprix").className="danger";
             erreur += "- Veuillez donner un Prix du voyage en question.<br/>";
         }
@@ -75,6 +85,15 @@ function valider(form,type) {
         
     }
     if (type == "ajouterReservation") {
+        document.getElementById("idres_nom").className="info";
+        document.getElementById("idres_prenom").className="info";
+        document.getElementById("idres_email").className="info";
+        document.getElementById("idres_email").className="info";
+        document.getElementById("idres_tel").className="info";
+        document.getElementById("idres_tel").className="info";
+        document.getElementById("idres_nbr_adulte").className="info";
+        document.getElementById("idres_nbr_enfants").className = "info";
+
         if (form.res_nom.value == "") {
             document.getElementById("idres_nom").className="danger";
             erreur += "- Veuillez entrer votre nom.<br/>";
@@ -112,6 +131,9 @@ function valider(form,type) {
 
     }
     if (type == "ajouterCatVoyage") {
+                document.getElementById("idnomcatvoyage").className = "info";
+        document.getElementById("iddescriptioncatvoyage").className = "info";
+
         if (form.nomcatvoyage.value == "") {
             document.getElementById("idnomcatvoyage").className = "danger";
             erreur += "- Veuillez entrer le Nom de la Catgorie.<br/>";
@@ -122,6 +144,9 @@ function valider(form,type) {
         }
     }
     if (type == "ajouterUser") {
+        document.getElementById("idloginuser").className = "info";
+        document.getElementById("idpassworduser").className = "info";
+
         if (form.loginuser.value == "") {
             document.getElementById("idloginuser").className = "danger";
             erreur += "- Veuillez entrer un login.<br/>";
@@ -136,7 +161,7 @@ function valider(form,type) {
         document.getElementById("nom_play_list").className = "info";
         document.getElementById("description_play_list").className = "info";
 
-        if (form.name_paly_list.value == "") {
+        if (form.name_play_list.value == "") {
             document.getElementById("nom_play_list").className = "danger";
             erreur += "- Veuillez indique le nom de la play list .<br/>";
         }
@@ -147,6 +172,10 @@ function valider(form,type) {
     }
 
     if (type == "ajouterdest") {
+        document.getElementById("idmedia").className = "info";
+        document.getElementById("iddescription_dest").className = "info";
+        document.getElementById("idnom_dest").className = "info";
+
         if (form.id_media_dest.value == "") {
             document.getElementById("idmedia").className = "danger";
             erreur += "- Veuillez indique une image pour la destination.<br/>";
@@ -162,6 +191,11 @@ function valider(form,type) {
         }
     }
     if (type == "ajoutermedia") {
+        document.getElementById("idtype_media").className = "info";
+        document.getElementById("idtitre").className = "info";
+        document.getElementById("idlien").className = "info";
+        document.getElementById("iddesc").className = "info";
+
         if (form.titremedia.value == "") {
             document.getElementById("idtitre").className = "danger";
             erreur += "- Veuillez indique un titre.<br/>";
@@ -181,6 +215,9 @@ function valider(form,type) {
 
     }
     if (type == "editermedia") {
+        document.getElementById("iddesc").className = "info";
+        document.getElementById("idtitre").className = "info";
+
         if (form.titremedia.value == "") {
             document.getElementById("idtitre").className = "danger";
             erreur += "- Veuillez indique un titre.<br/>";
@@ -200,6 +237,9 @@ function valider(form,type) {
 
     }
     if (type == "ajouterType_Media") {
+        document.getElementById("idext_Type_Media").className = "info";
+        document.getElementById("idnom_Type_Media").className = "info";
+
         if (form.nom_Type_Media.value == "") {
             document.getElementById("idnom_Type_Media").className = "danger";
             erreur += "- Veuillez indique le nom du Type de media.<br/>";
@@ -210,6 +250,9 @@ function valider(form,type) {
         }
     }
     if (type == "ajouterContact") {
+        document.getElementById("desc_contact").className = "info";
+        document.getElementById("nom_contact").className = "info";
+
         if (form.nom_contact.value == "") {
             document.getElementById("nom_contact").className = "danger";
             erreur += "- Veuillez entrer votre nom.<br/>";

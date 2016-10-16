@@ -17,7 +17,7 @@ if($res_nom!=""&&$res_prenom!=""&&$res_nbr_adulte!=""&&$res_nbr_enfants!=""&&$re
     $resultat = $Reservation->saveReservation();
     if ($resultat) {
         echo("Enregistrement réussie");
-        header("Refresh: 2; URL = ../killer.php");
+
     } else {
         echo("Echec d'enregistrement");
     }

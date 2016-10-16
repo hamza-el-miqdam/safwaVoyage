@@ -11,7 +11,7 @@ require_once '../../module/model/Type_Media/Type_Media.php';
 		}else{
 			echo("Echec de suppression");
 		}
-		header("Refresh: 2;Location: ../../views/type_media/editer.inc");
+		header("Location: ../../views/type_media/editer.php");
 	}else{
 		echo("Vous n'avez pas le droit d'acces a cette page !!");
 		

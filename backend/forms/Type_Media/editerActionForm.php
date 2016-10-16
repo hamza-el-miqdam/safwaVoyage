@@ -56,7 +56,7 @@ require_once'../../module/model/Type_Media/Type_Media.php';
     <form enctype="multipart/form-data" name="Type_MediaForm" action="../../actions/Type_Media/editerAction.php" method="post">
         <div class="well row">
         <table class="table table-hover">
-            <tr class="danger">
+            <tr id="erreurline" class="info">
                 <td colspan=2 id="bloc_erreur">
                 </td>
             </tr>

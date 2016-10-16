@@ -19,11 +19,11 @@ if($nom_contact!=""&&$desc!="") {
     $resultat = $categorie->saveContact();
     if ($resultat) {
         echo("Enregistrement reussie");
-        header('Refresh: 2; URL = ../../../pages/contact.php');
+
     } else {
         echo("Echec d'enregistrement");
     }
-    header("Refresh: 2;Location: ../../views/dest/editer.inc");
+    header('Location: ../../../pages/contact.php');
 }else{
-    echo("vous n'avez pas le droit d'accés à cette page");
+    header('Location: ../../../pages/contact.php');
 }?>

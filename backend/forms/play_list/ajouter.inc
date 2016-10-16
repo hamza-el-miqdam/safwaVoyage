@@ -71,7 +71,7 @@ $listvoy = $voy->getVoyage();
                     <label>nom</label>
                 </td>
                 <td>
-                    <input class="form-control" type="text" name="name_paly_list"/>
+                    <input class="form-control" type="text" name="name_play_list"/>
                 </td>
             </tr>
             <tr id="description_play_list" class="info">

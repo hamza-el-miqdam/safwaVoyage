@@ -11,8 +11,7 @@ require_once '../../module/model/Voyage/Voyage.php';
 		}else{
 			echo("Echec de suppression");
 		}
-		sleep(5);
-    	header("Location: ../../views/voyage/editer.inc");
+    	header("Location: ../../views/voyage/editer.php");
 	}else{
 		echo("Vous n'avez pas le droit d'acces a cette page !!");
 		

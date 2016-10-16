@@ -12,8 +12,9 @@ ul {
             height:auto;
     }
         #content{
-            background-color: rgba(236, 240, 241,0.75);
-            width: 70%;
+            background-color: transparent;
+            /*background-color: rgba(236, 240, 241,0.75);*/
+            width: 60%;
             height: auto;
         }
 
@@ -55,20 +56,32 @@ ul {
                     display: none;
                 }
             }
-                #myCarousel img{
-                    height: 500px;
-                    width: 100%;
-                    margin: auto;
-                    min-height:200px;
-                }
-                #myCarousel .item .well{
-                    align-items: center;
-                    background-color: rgba(127, 140, 141,.75);
-                }
-                #myCarousel .item .well h3,p{
-                    color: rgba(236, 240, 241,1.0);
-                    text-transform: uppercase;
-                }
+            #slidercaro{
+                background-color: rgba(236, 240, 241,0.75);
+
+            }
+                    #myCarousel img{
+                        height: 300px;
+                        width: 100%;
+                        margin: auto;
+                        min-height:200px;
+                    }
+
+                    #myCarousel .item .well{
+                        align-items: center;
+                        background-color: rgba(127, 140, 141,.50);
+
+                    }
+                    #myCarousel .item .well h3{
+                        font-size: medium;
+                    }
+                    #myCarousel .item .well p{
+                        font-size: smaller;
+                    }
+                    #myCarousel .item .well h3,p{
+                        color: rgba(236, 240, 241,1.0);
+                        text-transform: uppercase;
+                    }
             /*pour index.php*/
             #presentation{
                 width: 100%;
@@ -79,10 +92,11 @@ ul {
             }
 
                 #presentation #collections{
-                    margin-left: 0;
-                    margin-right: 0;
-                    padding-left: 0;
-                    padding-right: 0;
+                    background-color: rgba(236, 240, 241,0.75);
+                    /*margin-left: 0;*/
+                    /*margin-right: 0;*/
+                    /*padding-left: 0;*/
+                    /*padding-right: 0;*/
 
 
                 }
@@ -95,7 +109,7 @@ ul {
                         text-transform: uppercase;
                     }
                 #presentation #pub{
-                    padding-top: 75px ;
+                    /*padding-top: 75px ;*/
                 }
 
 
