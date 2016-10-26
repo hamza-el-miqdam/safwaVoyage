@@ -58,7 +58,7 @@ ul {
             }
             #slidercaro{
                 background-color: rgba(236, 240, 241,0.75);
-
+                margin-bottom: 5px;
             }
                     #myCarousel img{
                         height: 300px;
@@ -91,6 +91,7 @@ ul {
                 padding-right: 0;
             }
 
+
                 #presentation #collections{
                     background-color: rgba(236, 240, 241,0.75);
                     /*margin-left: 0;*/
@@ -100,6 +101,9 @@ ul {
 
 
                 }
+                    #presentation #collections img{
+                        margin-bottom: 20px;
+                    }
                     #presentation #collections h3{
                         font-weight: bold ;
                         color: #d32236;

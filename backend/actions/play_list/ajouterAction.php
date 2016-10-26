@@ -33,13 +33,13 @@ if(!empty($amedia))
 if($name_play_list!=""&&$desc_play_list!=""&&$idsmedia!=""&&$ids!="") {
 
     if($ch==0){
-        $playlist = new Play_list(addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,'','',$ids);
+        $playlist = new Play_list(addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,'-1','-1',$ids);
     }
     else if ($ch==1){
-        $playlist = new Play_list(addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,$ids,'','');
+        $playlist = new Play_list(addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,$ids,'-1','-1');
     }
     else if ($ch==2){
-        $playlist = new Play_list(addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,'',$ids,'');
+        $playlist = new Play_list(addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,'-1',$ids,'-1');
 }
 
     $resultat = $playlist->savePlay_list();

@@ -90,7 +90,7 @@ $listCat = $cat->getCat_Voyage();
         </nav>
         <div id="separateur"></div>
         <div class="container-fluid">
-            <div class="col-md-10" >
+            <div class="col-md-12" >
 
         <h3>Les champs avec un * sont obligatoires.</h3>
                 <div id="form" class=" container">

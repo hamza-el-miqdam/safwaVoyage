@@ -2,54 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef882c2-fed0-4506-b754-43cf128efc10" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/API/autocorrectionairport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index11.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Cat_Voyage/ajouterAction.php" afterPath="$PROJECT_DIR$/backend/actions/Cat_Voyage/ajouterAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Cat_Voyage/deleteAction.php" afterPath="$PROJECT_DIR$/backend/actions/Cat_Voyage/deleteAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Cat_Voyage/editerAction.php" afterPath="$PROJECT_DIR$/backend/actions/Cat_Voyage/editerAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Contact/ajouterAction.php" afterPath="$PROJECT_DIR$/backend/actions/Contact/ajouterAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Contact/deleteAction.php" afterPath="$PROJECT_DIR$/backend/actions/Contact/deleteAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Dest/ajouterAction.php" afterPath="$PROJECT_DIR$/backend/actions/Dest/ajouterAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Dest/deleteAction.php" afterPath="$PROJECT_DIR$/backend/actions/Dest/deleteAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Dest/editerAction.php" afterPath="$PROJECT_DIR$/backend/actions/Dest/editerAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Media/ajouterAction.php" afterPath="$PROJECT_DIR$/backend/actions/Media/ajouterAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Media/deleteAction.php" afterPath="$PROJECT_DIR$/backend/actions/Media/deleteAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Media/editerAction.php" afterPath="$PROJECT_DIR$/backend/actions/Media/editerAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Reservation/ajouterAction.php" afterPath="$PROJECT_DIR$/backend/actions/Reservation/ajouterAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Reservation/deleteAction.php" afterPath="$PROJECT_DIR$/backend/actions/Reservation/deleteAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Reservation/editerAction.php" afterPath="$PROJECT_DIR$/backend/actions/Reservation/editerAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Type_Media/ajouterAction.php" afterPath="$PROJECT_DIR$/backend/actions/Type_Media/ajouterAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Type_Media/deleteAction.php" afterPath="$PROJECT_DIR$/backend/actions/Type_Media/deleteAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Type_Media/editerAction.php" afterPath="$PROJECT_DIR$/backend/actions/Type_Media/editerAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/User/ajouterAction.php" afterPath="$PROJECT_DIR$/backend/actions/User/ajouterAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/User/deleteAction.php" afterPath="$PROJECT_DIR$/backend/actions/User/deleteAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/User/editerAction.php" afterPath="$PROJECT_DIR$/backend/actions/User/editerAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Voyage/ajouterAction.php" afterPath="$PROJECT_DIR$/backend/actions/Voyage/ajouterAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Voyage/deleteAction.php" afterPath="$PROJECT_DIR$/backend/actions/Voyage/deleteAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/Voyage/editerAction.php" afterPath="$PROJECT_DIR$/backend/actions/Voyage/editerAction.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/play_list/ajouterAction.php" afterPath="$PROJECT_DIR$/backend/actions/play_list/ajouterAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/play_list/deleteAction.php" afterPath="$PROJECT_DIR$/backend/actions/play_list/deleteAction.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/actions/play_list/editerAction.php" afterPath="$PROJECT_DIR$/backend/actions/play_list/editerAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/Cat_Voyage/ajouter.inc" afterPath="$PROJECT_DIR$/backend/forms/Cat_Voyage/ajouter.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/Cat_Voyage/editerActionForm.php" afterPath="$PROJECT_DIR$/backend/forms/Cat_Voyage/editerActionForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/Dest/ajouter.inc" afterPath="$PROJECT_DIR$/backend/forms/Dest/ajouter.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/Dest/editerActionForm.php" afterPath="$PROJECT_DIR$/backend/forms/Dest/editerActionForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/Media/ajouter.inc" afterPath="$PROJECT_DIR$/backend/forms/Media/ajouter.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/Media/editerActionForm.php" afterPath="$PROJECT_DIR$/backend/forms/Media/editerActionForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/Type_Media/ajouter.inc" afterPath="$PROJECT_DIR$/backend/forms/Type_Media/ajouter.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/Type_Media/editerActionForm.php" afterPath="$PROJECT_DIR$/backend/forms/Type_Media/editerActionForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/User/ajouter.inc" afterPath="$PROJECT_DIR$/backend/forms/User/ajouter.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/User/editerActionForm.php" afterPath="$PROJECT_DIR$/backend/forms/User/editerActionForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/play_list/ajouter.inc" afterPath="$PROJECT_DIR$/backend/forms/play_list/ajouter.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/play_list/editer.inc" afterPath="$PROJECT_DIR$/backend/forms/play_list/editer.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/play_list/editerActionForm.php" afterPath="$PROJECT_DIR$/backend/forms/play_list/editerActionForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/reservation/ajouter.inc" afterPath="$PROJECT_DIR$/backend/forms/reservation/ajouter.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/voyage/ajouter.inc" afterPath="$PROJECT_DIR$/backend/forms/voyage/ajouter.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/forms/voyage/editerActionForm.php" afterPath="$PROJECT_DIR$/backend/forms/voyage/editerActionForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/js/validation.js" afterPath="$PROJECT_DIR$/backend/js/validation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/module/model/Play_list/Play_list.php" afterPath="$PROJECT_DIR$/backend/module/model/Play_list/Play_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/play_list/editer.php" afterPath="$PROJECT_DIR$/backend/views/play_list/editer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index1.html" afterPath="$PROJECT_DIR$/index1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/contact.php" afterPath="$PROJECT_DIR$/pages/contact.php" />
     </list>
     <ignored path="SafwaCloud9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,33 +31,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ajouter.inc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/forms/voyage/ajouter.inc">
+      <file leaf-file-name="index11.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index11.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="125" column="27" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="4268">
+              <caret line="194" column="40" selection-start-line="194" selection-start-column="40" selection-end-line="194" selection-end-column="40" />
+              <folding>
+                <marker date="1477429703399" expanded="true" signature="7991:8015" ph="..." />
+                <marker date="1477429703399" expanded="true" signature="8488:8512" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/js/validation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="90" column="64" selection-start-line="90" selection-start-column="64" selection-end-line="90" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            <state relative-caret-position="4114">
+              <caret line="187" column="30" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="30" />
               <folding>
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1477430107753" expanded="true" signature="7035:7059" ph="..." />
+                <marker date="1477430107753" expanded="true" signature="7459:7483" ph="..." />
               </folding>
             </state>
           </provider>
@@ -105,8 +60,40 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1782">
-              <caret line="81" column="39" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="39" />
+            <state relative-caret-position="3718">
+              <caret line="169" column="18" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8360">
+              <caret line="380" column="8" selection-start-line="380" selection-start-column="8" selection-end-line="380" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autocorrectionairport.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API/autocorrectionairport.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -135,10 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/contact.php" />
-        <option value="$PROJECT_DIR$/backend/module/model/Media/Media.php" />
-        <option value="$PROJECT_DIR$/backend/module/model/Dest/Dest.php" />
-        <option value="$PROJECT_DIR$/backend/module/model/Voyage/Voyage.php" />
         <option value="$PROJECT_DIR$/backend/module/model/Play_list/Play_list.php" />
         <option value="$PROJECT_DIR$/backend/forms/play_list/ajouter.inc" />
         <option value="$PROJECT_DIR$/backend/forms/play_list/editer.inc" />
@@ -147,7 +130,6 @@
         <option value="$PROJECT_DIR$/backend/actions/Contact/ajouterAction.php" />
         <option value="$PROJECT_DIR$/backend/actions/Contact/deleteAction.php" />
         <option value="$PROJECT_DIR$/backend/actions/Reservation/ajouterAction.php" />
-        <option value="$PROJECT_DIR$/backend/actions/play_list/ajouterAction.php" />
         <option value="$PROJECT_DIR$/backend/actions/Dest/ajouterAction.php" />
         <option value="$PROJECT_DIR$/backend/actions/Dest/deleteAction.php" />
         <option value="$PROJECT_DIR$/backend/actions/Dest/editerAction.php" />
@@ -155,7 +137,6 @@
         <option value="$PROJECT_DIR$/backend/actions/Media/deleteAction.php" />
         <option value="$PROJECT_DIR$/backend/actions/Media/editerAction.php" />
         <option value="$PROJECT_DIR$/backend/actions/play_list/deleteAction.php" />
-        <option value="$PROJECT_DIR$/backend/actions/play_list/editerAction.php" />
         <option value="$PROJECT_DIR$/backend/actions/Reservation/deleteAction.php" />
         <option value="$PROJECT_DIR$/backend/actions/Reservation/editerAction.php" />
         <option value="$PROJECT_DIR$/backend/actions/Type_Media/ajouterAction.php" />
@@ -184,8 +165,14 @@
         <option value="$PROJECT_DIR$/backend/forms/voyage/editerActionForm.php" />
         <option value="$PROJECT_DIR$/backend/forms/voyage/ajouter.inc" />
         <option value="$PROJECT_DIR$/backend/js/validation.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/backend/actions/play_list/ajouterAction.php" />
+        <option value="$PROJECT_DIR$/backend/actions/play_list/editerAction.php" />
+        <option value="$PROJECT_DIR$/pages/contact.php" />
+        <option value="$PROJECT_DIR$/index11.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index1.html" />
+        <option value="$PROJECT_DIR$/API/autocorrectionairport.php" />
       </list>
     </option>
   </component>
@@ -251,6 +238,34 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9 - Copy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SafwaCloud9 - Copy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -266,11 +281,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\SafwaCloud9 - Copy" />
       <recent name="C:\wamp64\www\SafwaCloud9 - Copy\backend\actions" />
       <recent name="C:\wamp64\www\SafwaCloud9\backend\views" />
       <recent name="C:\wamp64\www\SafwaCloud9\backend\forms" />
       <recent name="C:\wamp64\www\SafwaCloud9\backend\module\model" />
-      <recent name="C:\wamp\www\SafwaCloud9\backend\views\reservation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\SafwaCloud9\backend\actions" />
@@ -357,7 +372,11 @@
       <workItem from="1476358799886" duration="1096000" />
       <workItem from="1476433735790" duration="11549000" />
       <workItem from="1476527947231" duration="1376000" />
-      <workItem from="1476617826746" duration="14998000" />
+      <workItem from="1476617826746" duration="19528000" />
+      <workItem from="1476825908891" duration="1011000" />
+      <workItem from="1477427425112" duration="5544000" />
+      <workItem from="1477482819370" duration="758000" />
+      <workItem from="1477497477361" duration="464000" />
     </task>
     <task id="LOCAL-00001" summary="list">
       <created>1476313895035</created>
@@ -394,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476528139399</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finish playlist + erreurline + fix validation + fix redirection in actions + change style index.php">
+      <created>1476636501143</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1476636501143</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74802000" />
+    <option name="totallyTimeSpent" value="87109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,9 +437,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1584318" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1670247" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -429,7 +455,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -470,7 +496,9 @@
     <MESSAGE value="list" />
     <MESSAGE value="correction contact, add block erreurs, add links from index to contact" />
     <MESSAGE value="play list ajouter+action ajouter et supprimer + forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="play list ajouter+action ajouter et supprimer + forms" />
+    <MESSAGE value="finish playlist + erreurline + fix validation + fix redirection in actions + change style index.php" />
+    <MESSAGE value="26/10/2016" />
+    <option name="LAST_COMMIT_MESSAGE" value="26/10/2016" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,51 +513,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/views/play_list/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/contact/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/contact/editer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/actions/killer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/actions/Contact/ajouterAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/actions/Contact/deleteAction.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,7 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -577,15 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
           <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/actions/play_list/ajouterAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,15 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/actions/play_list/editerAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="58" column="45" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="959">
           <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,11 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="206" column="17" selection-start-line="206" selection-start-column="17" selection-end-line="206" selection-end-column="17" />
-          <folding>
-            <marker date="1476630227424" expanded="true" signature="4952:4995" ph="..." />
-            <marker date="1476630227424" expanded="true" signature="5885:5928" ph="..." />
-            <marker date="1476630227424" expanded="true" signature="6817:6860" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="31" column="45" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="23" column="45" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,48 +790,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <marker date="1476619830089" expanded="true" signature="998:1269" ph="INSERT INTO $... " />
-            <marker date="1476619830089" expanded="true" signature="1464:1521" ph="SELECT * FRO... $" />
-            <marker date="1476619830089" expanded="true" signature="1561:1575" ph="SELECT * FRO... $" />
-            <marker date="1476619830089" expanded="true" signature="1744:1802" ph="DELETE FROM " />
-            <marker date="1476619830089" expanded="true" signature="2009:2410" ph="UPDATE ${{$t... " />
-            <marker date="1476619830089" expanded="true" signature="2069:2410" ph="UPDATE ${{$t... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/forms/voyage/ajouter.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="125" column="27" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/js/validation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
+        <state relative-caret-position="22">
           <caret line="90" column="64" selection-start-line="90" selection-start-column="64" selection-end-line="90" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/forms/voyage/ajouter.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="125" column="27" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/actions/play_list/ajouterAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="41" column="105" selection-start-line="41" selection-start-column="105" selection-end-line="41" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/actions/play_list/editerAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="42" column="126" selection-start-line="42" selection-start-column="126" selection-end-line="42" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="81" column="39" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="39" />
+        <state relative-caret-position="3718">
+          <caret line="169" column="18" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index11.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4268">
+          <caret line="194" column="40" selection-start-line="194" selection-start-column="40" selection-end-line="194" selection-end-column="40" />
+          <folding>
+            <marker date="1477429703399" expanded="true" signature="7991:8015" ph="..." />
+            <marker date="1477429703399" expanded="true" signature="8488:8512" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8360">
+          <caret line="380" column="8" selection-start-line="380" selection-start-column="8" selection-end-line="380" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        <state relative-caret-position="4114">
+          <caret line="187" column="30" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="30" />
           <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1477430107753" expanded="true" signature="7035:7059" ph="..." />
+            <marker date="1477430107753" expanded="true" signature="7459:7483" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/autocorrectionairport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

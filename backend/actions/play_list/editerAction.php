@@ -36,11 +36,11 @@ if($id!=""&&$name_play_list!=""&&$desc_play_list!=""&&$idsmedia!=""&&$ids!="") {
     $playlist = new Play_list();
     switch ($ch) {
         case 0:
-            $resultat = $playlist->updatePlay_list($id,addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,'','',$ids);
+            $resultat = $playlist->updatePlay_list($id,addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,'-1','-1',$ids);
         case 1:
-            $resultat = $playlist->updatePlay_list($id,addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,$ids,'','');
+            $resultat = $playlist->updatePlay_list($id,addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,$ids,'-1','-1');
         case 2:
-            $resultat = $playlist->updatePlay_list($id,addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,'',$ids,'');
+            $resultat = $playlist->updatePlay_list($id,addslashes($name_play_list), addslashes($desc_play_list), $idsmedia,'-1',$ids,'-1');
         default:
             $resultat= false;
     }

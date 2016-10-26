@@ -159,36 +159,57 @@ $listdest = $des->getDest();
         <div id="presentation" class="container text-center">
 
             <div id="collections" class="col-md-10 well-sm">
-                <h3>Nos Destinations</h3><br>
-                <?php
-                    $i=1;
-                    while($dataDest=$listdest->fetch()){
-                        $listMedia = $media->getMedia();
-                            while($destMedia=$listMedia->fetch()){
-                                if($destMedia['id_media']==$dataDest['id_media_dest']){
-                                    break;
+                <ul class="nav nav-tabs">
+                    <li><h3><a role="button" data-toggle = "collapse" data-parent = "#accordion" href = "#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Nos Destinations
+                        </a></h3></li>
+
+<!--                     data-toggle="collapse" data-parent="#accordion" href="#collapseOne"  "-->
+
+                    <li><h3><a role="button" data-toggle = "collapse" data-parent = "#accordion" href = "#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                            Nos Destinations1
+                        </a></h3></li>
+                </ul>
+                <div id="accordion" >
+                    <div id = "collapseOne" class = "panel-collapse collapse in">
+                        <div class = "panel-body">
+                            <?php
+                                $i=1;
+                                while($dataDest=$listdest->fetch()){
+                                    $listMedia = $media->getMedia();
+                                        while($destMedia=$listMedia->fetch()){
+                                            if($destMedia['id_media']==$dataDest['id_media_dest']){
+                                                break;
+                                            }
+                                        }
+                                    if($i){
+                                        echo '<div class="row">';
+                                        echo  '<div class="col-md-6">';
+                                        echo '<a href="#"><img src="image/'.$destMedia["source_media"].'" class="img-responsive"  style="height:300px; width:100%" alt="Image"></a>';
+                                        echo '<h4 class="dest_ilus">'.$dataDest["nom_dest"].'</h4>';
+                                        echo '</div>';
+                                        $i=0;
+                                    }else{
+                                        echo '<div class="col-md-6">';
+                                        echo '<a href="#"><img src="image/'.$destMedia["source_media"].'" class="img-responsive" style="height:300px; width:100%" alt="Image"></a>';
+                                        echo '<h4 class="dest_ilus">'.$dataDest["nom_dest"].'</h4>';
+                                        echo '</div>';
+                                        echo '</div>';
+                                        $i=1;
+                                    }
                                 }
-                            }
-                        if($i){
-                            echo '<div class="row">';
-                            echo  '<div class="col-md-6">';
-                            echo '<a href="#"><img src="image/'.$destMedia["source_media"].'" class="img-rounded"  style="height:300px; width:100%" alt="Image"></a>';
-//                            echo '<h4 class="dest_ilus">'.$dataDest["nom_dest"].'</h4>';
-                            echo '</div>';
-                            $i=0;
-                        }else{
-                            echo '<div class="col-md-6">';
-                            echo '<a href="#"><img src="image/'.$destMedia["source_media"].'" class="img-rounded" style="height:300px; width:100%" alt="Image"></a>';
-//                            echo '<h4 class="dest_ilus">'.$dataDest["nom_dest"].'</h4>';
-                            echo '</div>';
-                            echo '</div>';
-                            $i=1;
-                        }
-                    }
-                    if($i==0){
-                        echo '</div>';
-                    }
-                ?>
+                                if($i==0){
+                                    echo '</div>';
+                                }
+                            ?>
+                            </div>
+                    </div>
+                    <!--<div id = "collapsetwo" class = "panel-collapse collapse">
+                        <div class = "panel-body">
+                           <p>text text text</p>
+                        </div>
+                    </div>-->
+                </div>
             </div>
 
             <div id="pub" class="col-md-2 ">
