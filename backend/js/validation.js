@@ -45,6 +45,8 @@ function valider(form,type) {
         document.getElementById("idcat").className="info";
         document.getElementById("iddest").className="info";
         document.getElementById("idmedia").className="info";
+        document.getElementById("iditin").className="info";
+        document.getElementById("idinfosup").className="info";
 
         if (form.titre_voy.value == "") {
             document.getElementById("idtitre").className="danger";
@@ -81,6 +83,14 @@ function valider(form,type) {
         if (form.id_media_voy.value == "") {
             document.getElementById("idmedia").className="danger";
             erreur += "- Veuillez indiquer une image du voyage en question.<br/>";
+        }
+        if (form.infosup.value == "") {
+            document.getElementById("idinfosup").className="danger";
+            erreur += "- Veuillez entre les information sup.<br/>";
+        }
+        if (form.itin.value == "") {
+            document.getElementById("iditin").className="danger";
+            erreur += "- Veuillez indique l'Itinéraire.<br/>";
         }
         
     }

@@ -1,4 +1,11 @@
-
+@font-face {
+    font-family: coiny;
+    src: url(../fonts/Coiny/Coiny-Regular.ttf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
 body{
     background: url("../image/bg_menu.jpg") no-repeat fixed;
     background-size: 100%;
@@ -19,54 +26,78 @@ ul {
         }
 
             #navbar {
-                background-color: rgba(236, 240, 241,1);
+                background-color: rgba(236, 240, 241,0);
                 margin-bottom: 0;
                 border-radius: 0;
+                border-color: transparent;
             }
                 .tel{
-                    text-align: center;
-                    font-size: medium;
+                    font-family: Lobster;
+                    text-align: right;
+                    font-size: 20px;
+                    color: rgba(44, 62, 80,1.0);
+                    font-weight: bolder;
                     color: rgba(44, 62, 80,1.0);
                 }
+
                 #titre{
                     text-align: right;
                     font-size: medium;
                     color: rgba(44, 62, 80,1.0);
-
                 }
                 #navbar-cont{
                     padding-bottom: 0;
                 }
                     #bardenav{
                         border-color: transparent;
-                        background-color: rgba(37, 17, 17, 1);
+                        background-color: rgba(41, 128, 185,0.75) /*rgba(36, 49, 87, 0.8)*/;
                         padding: 0;
                         padding-right: 10px;
                         padding-left: 10px;
                         margin-left: -15px;
                         margin-right: -15px;
                         margin-bottom: 0;
+                        border-radius: 20px 0;
                     }
+                        #bardenav .navbar-nav a{
+                            font-family: coiny;
+                            font-size: 120%;
+                            color: whitesmoke;
+                        }
+                        #safwa{
+                            font-family: Lobster;
+                            color: whitesmoke;
 
-            #separateur{
+                        }
+                        #bardenav .active a{
+                            color: rgba(41, 128, 185,1.0);
+                        }
+
+            /*#separateur{
                 height: 150px;
-            }
+            }*/
             @media (max-width: 600px) {
                 .carousel-caption {
                     display: none;
                 }
             }
             #slidercaro{
+                margin-top: 5px;
                 background-color: rgba(236, 240, 241,0.75);
                 margin-bottom: 5px;
+                border-radius: 20px 0;
             }
                     #myCarousel img{
-                        height: 300px;
+                        height: 350px;
                         width: 100%;
                         margin: auto;
                         min-height:200px;
-                    }
+                        border-radius: 20px;
 
+                    }
+                    .carousel-control{
+                        background-color: transparent;
+                    }
                     #myCarousel .item .well{
                         align-items: center;
                         background-color: rgba(127, 140, 141,.50);
@@ -87,60 +118,78 @@ ul {
                 width: 100%;
                 margin-left: 0;
                 margin-right: 0;
-                padding-left: 0;
-                padding-right: 0;
+                /*padding-left: 0;
+                padding-right: 0;*/
             }
 
 
-                #presentation #collections{
+                #presentation .collections{
                     background-color: rgba(236, 240, 241,0.75);
                     /*margin-left: 0;*/
                     /*margin-right: 0;*/
                     /*padding-left: 0;*/
                     /*padding-right: 0;*/
-
+                    border-radius: 20px 0;
+                    margin-bottom: 5px;
 
                 }
-                    #presentation #collections img{
+                    #presentation .collections img{
                         margin-bottom: 20px;
                     }
-                    #presentation #collections h3{
+                    #presentation .collections h3{
+                        font-family: Lobster;
                         font-weight: bold ;
                         color: #d32236;
                     }
-                    #presentation #collections h4{
+                    #presentation .collections h4{
                         color: rgba(44, 62, 80,1.0);
                         text-transform: uppercase;
                     }
                 #presentation #pub{
-                    /*padding-top: 75px ;*/
+                    border-radius: 20px 0;
+                    margin-left: 0px;
+                    padding-right: 0;
                 }
-
-
+                    #presentation #pub div{
+                        margin-left: 0px;
+                        margin-right: 0px;
+                        border-radius: 20px 0;
+                    }
 
 
             /*pour voyage_view.php*/
 
-            #listevoyage {
-                background-color: rgba(149, 165, 166,0.25);
-                padding-top: 0px;
+            .listevoyage {
+                background-color: rgba(236, 240, 241,0.75);
+                padding-top: 20px;
+                padding-bottom: 20px;
+                margin-top: 20px;
+                margin-bottom: 0;
+                border-radius: 20px 0;
             }
-                #listevoyage h3 {
-                    color: rgba(189, 195, 199,1.0) ;
+                .listevoyage h3 {
+                    color: rgb(0, 0, 0);
                     font-family: "Times New Roman", Times, serif;
-
+                    font-size: medium;
                 }
-                #listevoyage h2 {
-                    color: rgba(46, 204, 113,1.0);
+                .listevoyage h2 {
+                    color: rgb(41, 128, 185);
+                    font-size: x-large;
+                    font-weight: bold;
                     font-family: "Times New Roman", Times, serif;
                 }
-                #listevoyage h1{
+                .listevoyage h1{
                     margin-top:-5px;
                     padding-bottom:-10px;
                 }
-                    #listevoyage h1, .dh{
+                .listevoyage .cadredhs{
+                    padding: 20px;
+                    background-color: #2980b9;
+                    border-radius: 20px;
+                }
+                    .listevoyage h1, .dh{
                         float:right;
-                        color: rgba(231, 76, 60,1.0);
+                        color: whitesmoke;
                         font-family: "Times New Roman", Times, serif;
                     }
 
@@ -165,11 +214,8 @@ ul {
             }
 
 footer {
-    background-color: rgba(37, 17, 17, 0.55);
-    padding: 25px;
-    border: 1px solid #e3e3e3;
-    border-radius: 4px;
-    border-bottom: none;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    border-color: transparent;
+    background-color: rgba(41, 128, 185,0.90);
+    height: 200px;
+    border-radius: 20px 0 0 0;
 }

@@ -11,11 +11,13 @@ $idmedia=(isset($_POST{"id_media_voy"}))?$_POST{"id_media_voy"}:"";
 $s_titre=(isset($_POST{"s_titre_voyage"}))?$_POST{"s_titre_voyage"}:"";
 $id_cat=(isset($_POST{"id_cat_voy"}))?$_POST{"id_cat_voy"}:"";
 $id_dest=(isset($_POST{"id_dest"}))?$_POST{"id_dest"}:"";
+$itin=(isset($_POST{"itin"}))?$_POST{"itin"}:"";
+$infosup=(isset($_POST{"infosup"}))?$_POST{"infosup"}:"";
 $visibleVoyage = isset($_POST["visibleVoyage"]) ? true : false;
 
-if($titre!=""&&$date_voyage!=""&&$prix!=""&&$text!=""&&$idmedia!=""&&$s_titre!=""&&$id_cat!=""&&$id_dest!="") {
+if($titre!=""&&$date_voyage!=""&&$prix!=""&&$text!=""&&$idmedia!=""&&$s_titre!=""&&$id_cat!=""&&$id_dest!=""&&$infosup!=""&&$itin!="") {
 
-    $Voyage = new Voyage(addslashes($titre),$idmedia,addslashes($text),addslashes($s_titre),$id_cat,$id_dest,$duree,$date_voyage,$prix,$visibleVoyage);
+    $Voyage = new Voyage(addslashes($titre),$idmedia,addslashes($text),addslashes($s_titre),$id_cat,$id_dest,$duree,$date_voyage,$prix,$visibleVoyage,addslashes($infosup),addslashes($itin));
     $resultat = $Voyage->saveVoyage();
     if ($resultat) {
         echo("Enregistrement réussie");

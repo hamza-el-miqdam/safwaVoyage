@@ -63,6 +63,22 @@ $listCat = $cat->getCat_Voyage();
                     <textarea class="form-control" name="text_voy"></textarea>
                 </td>
             </tr>
+            <tr id="idinfosup" class="info">
+                <td>
+                    <label>Informations Sup</label>
+                </td>
+                <td>
+                    <textarea class="form-control" name="infosup"></textarea>
+                </td>
+            </tr>
+            <tr id="iditin" class="info">
+                <td>
+                    <label>Itinéraire </label>
+                </td>
+                <td>
+                    <textarea class="form-control" name="itin"></textarea>
+                </td>
+            </tr>
             <tr id="idprix" class="info">
                 <td>
                     <label>Prix</label>

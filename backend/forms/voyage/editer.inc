@@ -21,7 +21,8 @@ $Voyage = $model->getVoyage();
             <table class="table table-striped" >
                     <tr>
                         <td><b>#</b></td><td><b>Titre</b></td><td><b>Sous Titre</b></td><td><b>Prix</b></td><td><b>Media</b></td><td><b>Text</b></td>
-                        <td><b>Date</b></td><td><b>Durée</b></td><td><b>Destination</b></td><td><b>Categorie</b></td><td><b>Visible</b></td><td colspan="2"><b>Action</b></td>
+                        <td><b>Date</b></td><td><b>Durée</b></td><td><b>Destination</b></td><td><b>Categorie</b></td><td><b>Visible</b></td>
+                        <td><b>Informations Sup</b></td><td><b>Itinéraire</b></td><td colspan="2"><b>Action</b></td>
                     </tr>
                 <?php
                 while($data = $Voyage->fetch()){
@@ -38,10 +39,14 @@ $Voyage = $model->getVoyage();
                     echo("<td>".$data['id_dest_voy']."</td>");
                     echo("<td>".$data['id_cat_voy']."</td>");
                     echo("<td>".$data['visible_voy']."</td>");
+                    echo("<td>".$data['infosup']."</td>");
+                    echo("<td>".$data['Itineraire']."</td>");
                     echo("<td><a href='../../actions/Voyage/deleteAction.php?id=".$data['id_voy']."'>Suprimer</a></td>");
                     echo("<td><a href='../../forms/voyage/editerActionForm.php?id=" .$data['id_voy']."'>Editer</a></td>");
                     echo("</tr>");
 
+
+                    /*`infosup`, `Itinéraire`)*/
                 }
                 ?>
             </table>

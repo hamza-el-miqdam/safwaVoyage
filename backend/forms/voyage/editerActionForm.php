@@ -99,6 +99,22 @@ if($id!=""){
                         <textarea class="form-control" name="text_voy"><?php echo($data["text_voy"])?></textarea>
                     </td>
                 </tr>
+                <tr id="idinfosup" class="info">
+                    <td>
+                        <label>Informations Sup</label>
+                    </td>
+                    <td>
+                        <textarea class="form-control" name="infosup"><?php echo($data["infosup"])?></textarea>
+                    </td>
+                </tr>
+                <tr id="iditin" class="info">
+                    <td>
+                        <label>Itinéraire </label>
+                    </td>
+                    <td>
+                        <textarea class="form-control" name="itin"><?php echo($data["Itineraire"])?></textarea>
+                    </td>
+                </tr>
                 <tr id="idprix" class="info">
                     <td>
                         <label>Prix</label>

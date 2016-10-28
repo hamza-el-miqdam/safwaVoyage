@@ -40,31 +40,9 @@ $listCat = $cat->getCat_Voyage();
 <body>
 <div id="globale">
     <div id="content" class="container">
-        <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
-            <div id="navbar-cont" class="container-fluid">
-                <div id="header" class="row">
-                    <div class="col-md-4">
-                        <img id="logo" src="../image/logo-safwa-final.png" width="165px" height="70px">
-                    </div>
-                    <div id="teldiv" class="col-md-4">
-                        <h2 class="tel">Pour plus d'informations</h2>
-                        <h3 class="tel">Tel:+212535536263</h3>
-                    </div>
-                    <div id="titrediv" class="col-md-4">
-                        <h2 id="titre">Agence de voyage</h2>
-                    </div>
-                </div>
-                <div id="bardenav" class="well">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Safwa Voyage</a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav">
+        <?php
+        require_once 'commun/menu.php';
+        ?>
                             <li><a href="../index.php">Home</a></li>
 
                             <?php
@@ -179,7 +157,9 @@ $listCat = $cat->getCat_Voyage();
 
     </div>
 </div>
-
+<?php
+require_once 'commun/footer.php';
+?>
 
 </body>
 </html>

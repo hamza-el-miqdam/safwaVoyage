@@ -5,6 +5,7 @@ class Connection{
     private $host = "localhost";
     private $pwd = "";
     private $user = "root";
+    private $port="3307";
     private $dbname = "SafwaVoyageBD";
     private $connection;
 
@@ -14,7 +15,7 @@ class Connection{
         {
             try {
 
-                $this->connection = new PDO("mysql:host={$this->host};dbname=".$this->dbname,$this->user,$this->pwd);
+                $this->connection = new PDO("mysql:host={$this->host};port={$this->port};dbname=".$this->dbname,$this->user,$this->pwd);
                 return $this->connection;
 
             } catch (Exception $e) {
